@@ -1,0 +1,9 @@
+{
+  "name": "martim-e-esperanca",
+  "private": true,
+  "description": "As Aventuras do Martim e da Esperança — platform game for kids",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node build.mjs --protect && wrangler pages deploy dist --project-name martim-e-esperanca --branch main --commit-dirty=true"
+  }
+}
